@@ -1,0 +1,962 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.ps-0 {
+    padding-left: 0;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.ps-15 {
+    padding-left: 15px;
+}
+
+.ps-5 {
+    padding-left: 5px;
+}
+
+.pe-5 {
+    padding-right: 5px;
+}
+
+
+.ps-10 {
+    padding-left: 10px;
+}
+
+.pe-20 {
+    padding-right: 20px;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+.px-10{
+    padding: 0 10px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+.ps-30 {
+    padding-left: 30px;
+}
+
+.pb-5 {
+    padding-bottom: 5px;
+}
+
+.p-15 {
+    padding: 15px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.m-5 {
+    margin: 5px;
+}
+
+.mb-5 {
+    margin-bottom: 5px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.me-10 {
+    margin-right: 10px;
+}
+
+.me-15 {
+    margin-right: 15px;
+}
+
+.me-20 {
+    margin-right: 20px;
+}
+
+.p-5 {
+    padding: 5px;
+}
+
+.ps-20 {
+    padding-left: 20px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.ps-40 {
+    padding-left: 40px;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
+}
+
+.me-15 {
+    margin-right: 15px;
+}
+
+.me-20 {
+    margin-right: 20px;
+}
+
+.me-0 {
+    margin-right: 0;
+}
+
+.ms-0 {
+    margin-left: 0;
+}
+
+.pe-15 {
+    padding-right: 20px;
+}
+
+.pe-10 {
+    padding-right: 10px;
+}
+
+.me-20 {
+    margin-right: 20px;
+}
+
+.px-20 {
+    padding: 0 20px;
+}
+
+.px-15 {
+    padding: 0 15px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.border-b {
+    border-bottom: 1px solid #cccccc;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.border-success {
+    border-bottom: 3px solid rgb(0, 187, 0);
+}
+
+.border-danger {
+    border-bottom: 3px solid red;
+}
+
+.d-inline {
+    display: inline;
+}
+
+button {
+    border: none;
+}
+
+.success {
+    color: rgb(0, 165, 0);
+}
+
+.danger {
+    color: red;
+}
+
+.gray {
+    color: #b1b1b1;
+}
+
+.blue {
+    color: #009bf5;
+}
+
+.dark {
+    color: #3b3b3b;
+}
+
+.light {
+    color: #fff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.overflow-scroll {
+    overflow-y: scroll;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-inhirt {
+    display: inherit;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+.justify-end{
+    justify-content: end;
+}
+.justify-start{
+    justify-content: flex-start;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-33 {
+    width: 33%;
+}
+
+.box-14 {
+    width: 14%;
+}
+
+.box-80 {
+    width: 80%;
+}
+
+.box-20 {
+    width: 20%;
+}
+
+.box-50 {
+    width: 50%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.box-70 {
+    width: 70%;
+}
+
+.box-30 {
+    width: 30%;
+}
+
+a {
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+body{
+    background-color: #d5dee4;
+}
+
+.sidebar {
+    width: 50px;
+    background-color: #3b3b3b;
+    height: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+/* header */
+
+header {
+    height: 50px;
+    background-color: white;
+    box-shadow: 5px 0 15px rgba(180, 180, 180, 0.3);
+    /* width: calc(95%-30px); */
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    float: right;
+}
+
+.dashboard-body {
+    padding-top: 73px;
+    padding-left: 70px;
+}
+
+.page-description h2 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* card */
+
+
+
+.card-section-1 .calendar-img a,
+.card-section-1 .cart-img a,
+.card-section-1 .hammer-img a,
+.card-section-1 .diamond-img a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #85ffa9;
+    color: #3b3b3b;
+}
+
+.card-section-1 .calendar-img a,
+.card-section-1 .hammer-img a {
+    background-color: rgb(255, 219, 154);
+    color: #3b3b3b;
+}
+
+.card-section-1 .diamond-img a {
+    font-size: 22px;
+}
+
+.card-section-1 .card-footer p {
+    font-size: 15px;
+}
+
+.appoinment-section,
+.save-search-section {
+    box-shadow: 0 0 5px rgba(180, 180, 180, 0.2);
+    /* height: 68.5%; */
+}
+
+.appoinment-section-header,
+.save-search-header {
+    border-bottom: 1px solid #dddddd;
+}
+
+.box-shadow {
+    box-shadow: 0 0 3px rgba(180, 180, 180, 0.5);
+}
+
+.card-section-1 h4 {
+    font-size: 16px;
+    color: #b1b1b1;
+    font-weight: 600;
+}
+
+.card-section-1 .score {
+    font-size: 36px;
+}
+
+.card-section-1 span:last-child {
+    color: #b1b1b1;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.card-section-1 .card-footer span,
+.card-section-2 span {
+    font-size: 16px;
+}
+
+.card-section-2 h4 {
+    color: black;
+}
+
+/* .card-section-3 */
+
+.card-section-3 .banner-section h2 {
+    font-size: 32px;
+    color: #68c8ff;
+    text-shadow: 0px 3px 3px rgba(180, 180, 180, 0.6);
+}
+
+.card-section-3 h3 {
+    font-size: 20px;
+}
+
+.packets-section {
+    display: block;
+}
+
+.card-section-3 p {
+    font-size: 18px;
+}
+
+.card-section-3 .banner-section button a {
+    position: relative;
+}
+
+.card-section-3 .banner-section button {
+    background-color: #009bf5;
+    color: rgb(231, 231, 231);
+    border-radius: 12px;
+    padding: 7px 30px;
+    font-size: 12px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card-section-3 .banner-section button::before {
+    position: absolute;
+    left: 0;
+    content: '';
+    width: 0%;
+    height: 100%;
+    bottom: 0;
+    top: 0;
+    transition: all 0.5s;
+    background-color: #3b3b3b;
+    color: white;
+}
+
+.card-section-3 .banner-section button:hover::before {
+    width: 100%;
+}
+
+.card-section-3 .banner-section button span {
+    font-size: 16px;
+}
+
+.card-section-3 .banner-img {
+    background-color: rgb(37, 37, 66);
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+}
+
+.card-section-3 .banner-img i {
+    font-size: 40px;
+    color: #009bf5;
+}
+
+.card-section-3 .banner-img h3 {
+    font-size: 45px;
+}
+
+.card-section-3 .banner-img p {
+    font-size: 10px;
+}
+
+.card-section-3 .packets-header h3 {
+    font-size: 24px;
+}
+
+.card-section-3 .packets-body .packets-2 p,
+span {
+    font-size: 14px;
+}
+
+/* .card-section-3 .big-card:last-child{
+    height: 550px;
+} */
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+h1 {
+    font-size: 24px;
+    color: #858585;
+    font-weight: 500;
+}
+
+.save-box {
+    box-shadow: 0 0 2px rgba(180, 180, 180, 0.5);
+    position: relative;
+}
+
+.inner-card{
+    height: 555px;
+}
+
+.card-section-3 .score-box p {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rounded-15 {
+    border-radius: 15px;
+}
+
+.rounded-10 {
+    border-radius: 10px;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.save-box::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: auto;
+    top: 0;
+    width: 7px;
+    bottom: 0;
+    height: 50px;
+    margin: auto;
+    background: #009bf5;
+    border-radius: 0 20px 20px 0;
+}
+
+h3 {
+    color: #009bf5;
+}
+
+.packets-1 p {
+    font-size: 18px;
+}
+
+.save-search-section .save-box h2 {
+    font-size: 18px;
+    line-height: 16px;
+}
+
+.appoinment-section .appoinment-footer h3,
+.save-search-section .save-search-footer h3 {
+    font-size: 16px;
+}
+
+.py-50-30 {
+    padding: 30px 30px 10px 30px;
+}
+
+/* .appoinment-section .save {
+    position: relative;
+    top: 14%;
+} */
+
+.appoinment-footer h3,
+.appoinment-body .appoinment-date p {
+    font-size: 16px;
+}
+
+.appoinment-body .save-box h4,
+.appoinment-body .appoinment-date span {
+    font-size: 18px;
+}
+
+.active {
+    background-color: #009bf5;
+    border-radius: 5px;
+}
+
+.card-section-4 a i {
+    font-size: 20px;
+}
+
+.card-section-4 h3 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.card-section-4 span {
+    font-size: 20px;
+    color: #858585;
+}
+
+.card-section-4 a .fa-phone {
+    padding: 15px 15px 0 0;
+}
+
+.active-border {
+    position: relative;
+}
+
+.active-border::after {
+    position: absolute;
+    content: '';
+    top: 42px;
+    bottom: 0;
+    width: 100%;
+    height: 5px;
+    background-color: #009bf5;
+    left: 0;
+}
+
+.view-footer a h3,
+.view-footer a h4,
+.card-section-4 img,
+.card-section-4 a i {
+    transition: all .3s;
+}
+
+.card-section-4 a i:hover {
+    transform: scale(1.2);
+    color: #009bf5;
+}
+
+/* .card-section-4 img{
+    filter: grayscale(1);
+}
+.card-section-4 img:hover{
+    filter: grayscale(0);
+} */
+
+.save-search-body {
+    height: 80%;
+    overflow-y: scroll;
+}
+
+.appoinment-body {
+    overflow-y: scroll;
+    height: 68%;
+}
+
+.appoinment-footer {
+    position: relative;
+    bottom: 36px;
+    right: 8px;
+}
+
+.appoinment-date span {
+    color: #3b3b3b;
+}
+
+.appoinment-date .active span {
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #c0c0c0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #009bf5;
+    border-radius: 10px;
+}
+
+.view-footer h3 {
+    color: #009bf5;
+    font-size: 16px;
+}
+
+.view-footer a h3:hover {
+    color: #3b3b3b;
+}
+
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+.white-space{
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    display: -webkit-box;
+}
+.overflow-x-scroll{
+    overflow-x: scroll;
+}
+.packets-body ::-webkit-scrollbar,
+.appoinment-date ::-webkit-scrollbar{
+    height: 0;
+}
+.appoinment-date{
+    width: 100%;
+}
+.py-10{
+    padding: 10px 0;
+}
+.p-3{
+    padding: 3px;
+}
+
+/* dark theme */
+
+#switcher {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+#switcher li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 0 15px 15px 0;
+    border-radius: 30px;
+    border: 3px solid black;
+}
+
+#lightButton {
+    background: #fff;
+}
+
+#darkButton {
+    background: #3b3b3b;
+}
+
+body.dark-theme {
+    background: #474747;
+}
+
+.dark-theme .sidebar {
+    background-color: #202020;
+}
+.dark-theme header {
+    background-color: #3a3a3a;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme .bg-white {
+    background-color: #302d2d;
+}
+.dark-theme .appoinment-section,.dark-theme .save-search-section,
+.dark-theme .box-shadow {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme .view-footer h3,
+.dark-theme .card-section-4 a i:hover,
+.dark-theme .appoinment-date p,
+.dark-theme .dark,
+.dark-theme .packets-body h4,
+.dark-theme .packets-body a,
+.dark-theme .banner-section p,
+.dark-theme .score-box p a,
+.dark-theme .page-description a,
+.dark-theme .page-description h2,
+.dark-theme .gray {
+    color: white;
+    transition: all .3s;
+}
+
+.dark-theme .success {
+    color: #00ff4c;
+}
+
+.dark-theme .card-section-3 .score-box span,
+.dark-theme .appoinment-date span,
+.dark-theme .card-section-4 span,
+.dark-theme .packets-body span,
+.dark-theme .card-section-1 h4,
+.dark-theme .card-section-1 span:last-child {
+    color: #dddddd;
+
+}
+
+.dark-theme .danger {
+    color: #ff3838;
+}
+
+.dark-theme .save-box {
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.dark-theme .view-footer h3:hover{
+    transition: all .3s;
+    color: #009bf5;
+}
+
+.dark-theme .card-section-4 a i {
+    color: #adadad;
+}
+.dark-theme .card-section-1 .small-card .calendar-img a, .dark-theme .card-section-1 .small-card .cart-img a, .dark-theme .card-section-1 .small-card .hammer-img a, .dark-theme .card-section-1 .diamond-img a{
+    background-color: #fff;
+}
+
+.card-section-1 .small-card{
+    cursor: e-resize;
+    
+}
+.card-section-1 .small-card a {
+    transition: all .3s;
+    transform: rotateY(0deg);
+    
+}
+
+.card-section-3 img{
+    /* animation: animate 3s linear infinite ; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+/* @keyframes animate{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+} */
+
+.card-section-1 .small-card:hover a {
+    transform: rotateY(180deg);
+    
+}
+.dark-theme .card-section-1 .small-card:hover .diamond-img a{
+    background-color: #00ff4c;
+}
+.dark-theme .card-section-1 .small-card:hover  .hammer-img a,
+.dark-theme .card-section-1 .small-card:hover .cart-img a,
+.dark-theme .card-section-1 .small-card:hover .calendar-img a{
+    background-color: rgb(255, 219, 154);
+}
+
+.switch {
+    font-size: 17px;
+    position: absolute;
+    display: inline-block;
+    right: 20px;
+    top: 10px;
+    width: 3.5em;
+    height: 26px;
+    border-radius: 50px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    --background: #a696c9;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--background);
+    transition: .5s;
+    border-radius: 30px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left:10%;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: var(--background);
+    transition: .5s;
+    box-shadow: inset 6px -4px 0px 0px #fff000;
+
+}
+
+input:checked+.slider {
+    background-color: var(--background);
+}
+
+input:checked+.slider:before {
+    transform: translateX(30px);
+    box-shadow: inset 15px -4px 0px 15px #fff000;
+
+}
+
+.packets-body .box-33{
+    padding: 5px 10px 5px 5px;
+}
+
+.owl-carousel.owl-drag .owl-item{
+    background-color: transparent;
+}
+.owl-theme .owl-dots{
+    display: none;
+}
+
+.owl-carousel .owl-nav span{
+    font-size: 20px;
+    line-height: 18px;
+}
+.owl-carousel .owl-nav button {
+    width: 20px;
+    height: 20px;
+    background-color: #009bf5;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.owl-theme .owl-nav{
+    margin-top: 28px;
+}
+
